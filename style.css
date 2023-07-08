@@ -1,3 +1,46 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: open Sans;
+    text-decoration: none;
+}
+
+/* navigation bar related css styles */
+.primary-orange{
+    color: #FD6E0A;
+}
+span{
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav > ul li{
+    margin-right: 50px;
+}
+nav li button{
+    width: 150px;
+    height: 64px;
+    padding: 18px 35px 19px 36px;
+    
+}
+.btn-main{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0;
 }
