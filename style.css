@@ -106,7 +106,7 @@ nav a{
 }
 
 /* ------------------Main section------------------------- */
-main{
+main, footer{
     max-width: 1140px;
     margin: auto;
 }
@@ -237,4 +237,28 @@ hr{
 }
 .centering img{
     margin: 5px 15px 0 0;
+}
+
+/* ------------Footer styling-------- */
+
+footer{
+    display: flex;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+.social-icons{
+    display: flex;
+    gap: 24px;
+}
+
+.connect p{
+    color: #474747;
+    font-size: 16px;    
+    line-height: 28px;
+    margin: 20px 0 30px;
+    width: 562px;
+}
+.social-icons img{
+    width: 24px;
+    height: 24px;
 }
