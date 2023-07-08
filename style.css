@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-/* navigation bar related css styles */
+/*-------------- navigation bar related css styles --------*/
 .primary-orange{
     color: #FD6E0A;
 }
@@ -36,6 +36,9 @@ nav li button{
     padding: 18px 35px 19px 36px;
     
 }
+nav a{
+    color: #474747;
+}
 .btn-main{
     background-color: #FD6E0A;
     color: white;
@@ -43,4 +46,9 @@ nav li button{
     border-radius: 5px;
     font-size: 20px;
     border: 0;
+}
+
+/* -------------header realated styles------------ */
+.banner{
+    padding: 30px 30px 30px 150px;
 }
