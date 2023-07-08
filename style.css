@@ -52,3 +52,21 @@ nav a{
 .banner{
     padding: 30px 30px 30px 150px;
 }
+/* -----------------------left side--- */
+.banner h3{
+    font-weight: 600;
+    
+}
+.download{
+    padding: 19px 17px 18px 17px;
+    
+}
+.contact-btn{
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    padding: 19px 23px 18px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    
+}
