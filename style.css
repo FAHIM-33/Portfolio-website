@@ -104,6 +104,43 @@ nav a{
     width: 584px;
     height: 676px; 
 }
-.vau-bg{
+
+/* ------------------Main section------------------------- */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+/* ---------------------About page------------------------ */
+.about{
+    padding: 209px 156px 221px 156px;
+    /* margin: 130px 230px; */
+    /* max-width: 1440px; */
+    max-height: 550px;
+    text-align: center;
     
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.about > p{
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.box{
+    justify-content: space-around;
+    color: #757575;
+    font-size: 20px;
+}
+.box .down{
+    font-weight: 700;
+    color: #474747;
+    line-height: 30px; 
 }
