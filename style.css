@@ -144,3 +144,51 @@ main{
     color: #474747;
     line-height: 30px; 
 }
+/* --------------What I do section-------------- */
+.what-i-do{
+    text-align: center;
+    margin: 130px auto;
+    
+}
+
+
+.what-i-do p{
+    color: #757575;
+    max-width: 909px;
+    max-height: 90px;
+    margin: 30px auto 50px;
+
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-box{
+    /* border: 1px solid blue; */
+    padding: 30px;
+    width: 201px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+.skill-box h4{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+/* ----------------------------summary of resume----------------- */
+
+.resume-container{
+    text-align: center;
+    border: 1px solid red;
+
+}
+.resume-container h3{
+    margin: 130px 0 113px;
+}
