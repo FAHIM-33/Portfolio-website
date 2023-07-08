@@ -185,10 +185,56 @@ main{
 /* ----------------------------summary of resume----------------- */
 
 .resume-container{
-    text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+
 
 }
 .resume-container h3{
+    text-align: center;
+}
+.column-container{
+    display: flex;
+    gap: 76px;
+}
+.column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-container h3{
     margin: 130px 0 113px;
+}
+.rows h5{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.rows > p{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.rows :last-child{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+hr{
+    width: 558px;
+    height: 10px;
+    color: black;
+}
+.cv-btn{
+    padding: 19px 17px 18px 20px;
+}
+.centering{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 113px;
+}
+.centering img{
+    margin: 5px 15px 0 0;
 }
